@@ -37,7 +37,6 @@
 		054749EF23CC076B00A2F637 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 054749EE23CC076B00A2F637 /* fishhook.h */; };
 		054749F123CC076B00A2F637 /* redEnvelopeDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 054749F023CC076B00A2F637 /* redEnvelopeDylib.h */; };
 		054749F323CC076B00A2F637 /* redEnvelopeDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = 054749F223CC076B00A2F637 /* redEnvelopeDylib.m */; };
-		054749FD23CC2C7100A2F637 /* wx.ipa in Resources */ = {isa = PBXBuildFile; fileRef = 054749FC23CC2C7100A2F637 /* wx.ipa */; };
 		05474A2523CC394B00A2F637 /* WeChatHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 05474A2423CC394B00A2F637 /* WeChatHeader.h */; };
 		05474A2823CC395E00A2F637 /* WeChatRedEnvelopParamQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 05474A2623CC395D00A2F637 /* WeChatRedEnvelopParamQueue.m */; };
 		05474A2923CC395E00A2F637 /* WeChatRedEnvelopParamQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 05474A2723CC395E00A2F637 /* WeChatRedEnvelopParamQueue.h */; };
@@ -102,7 +101,6 @@
 		054749EE23CC076B00A2F637 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
 		054749F023CC076B00A2F637 /* redEnvelopeDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = redEnvelopeDylib.h; sourceTree = "<group>"; };
 		054749F223CC076B00A2F637 /* redEnvelopeDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = redEnvelopeDylib.m; sourceTree = "<group>"; };
-		054749FC23CC2C7100A2F637 /* wx.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = wx.ipa; sourceTree = "<group>"; };
 		05474A2323CC2D8300A2F637 /* redEnvelopeDylib copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "redEnvelopeDylib copy-Info.plist"; path = "/Users/hibo/Documents/test/redEnvelope/redEnvelopeDylib copy-Info.plist"; sourceTree = "<absolute>"; };
 		05474A2423CC394B00A2F637 /* WeChatHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatHeader.h; sourceTree = "<group>"; };
 		05474A2623CC395D00A2F637 /* WeChatRedEnvelopParamQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatRedEnvelopParamQueue.m; sourceTree = "<group>"; };
@@ -181,7 +179,6 @@
 		054749A423CC076B00A2F637 /* TargetApp */ = {
 			isa = PBXGroup;
 			children = (
-				054749FC23CC2C7100A2F637 /* wx.ipa */,
 			);
 			path = TargetApp;
 			sourceTree = "<group>";
@@ -395,7 +392,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				054749A323CC076B00A2F637 /* MDConfig.plist in Resources */,
-				054749FD23CC2C7100A2F637 /* wx.ipa in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,7 +546,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -602,7 +598,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
