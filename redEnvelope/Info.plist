@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>19H2</string>
+	<string>19F101</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>zh_CN</string>
 	<key>CFBundleDisplayName</key>
-	<string>微信红包</string>
+	<string>微信</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -151,7 +151,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>8.0.2</string>
+	<string>8.0.16</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -178,35 +178,40 @@
 				<string>weixinULAPI</string>
 				<string>wx7015</string>
 				<string>mp</string>
+				<string>weixinStateAPI</string>
+				<string>weixinVideoStateAPI</string>
+				<string>weixinQRCodePayAPI</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>8.0.2.35</string>
+	<string>8.0.16.35</string>
 	<key>DTAppStoreToolsBuild</key>
-	<string>12D4d</string>
+	<string>13A1030d</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>18A8394</string>
+	<string>18D46</string>
 	<key>DTPlatformName</key>
 	<string>iphoneos</string>
 	<key>DTPlatformVersion</key>
-	<string>14.1</string>
+	<string>14.4</string>
 	<key>DTSDKBuild</key>
-	<string>18A8394</string>
+	<string>18D46</string>
 	<key>DTSDKName</key>
-	<string>iphoneos14.1</string>
+	<string>iphoneos14.4</string>
 	<key>DTXcode</key>
-	<string>1210</string>
+	<string>1240</string>
 	<key>DTXcodeBuild</key>
-	<string>12A7403</string>
+	<string>12D4e</string>
 	<key>FacebookAppID</key>
 	<string>290293790992170</string>
 	<key>FacebookAutoInitEnabled</key>
 	<false/>
 	<key>FacebookAutoLogAppEventsEnabled</key>
 	<false/>
+	<key>ITSDRMScheme</key>
+	<string>v2</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>qqnews</string>
@@ -242,10 +247,8 @@
 		<string>wx82dd7436af5db835</string>
 		<string>qqstock</string>
 		<string>openApp.jdMobile</string>
-		<string>openapp.toplife</string>
 		<string>qmkege</string>
 		<string>mqzonex</string>
-		<string>txvp</string>
 		<string>sybapp</string>
 		<string>wx5a4a8ac0fd48303a</string>
 		<string>qqsports</string>
@@ -258,11 +261,9 @@
 		<string>weiyun</string>
 		<string>weishi</string>
 		<string>wemeet</string>
-		<string>wxworkentuniform</string>
-		<string>wxworkentcustomized</string>
-		<string>wxworkgovuniform</string>
-		<string>wxworkgovcustomized</string>
 		<string>miaojian</string>
+		<string>uppaywallet</string>
+		<string>wxworkgovuniform</string>
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
@@ -274,7 +275,7 @@
 		<true/>
 	</dict>
 	<key>MinimumOSVersion</key>
-	<string>12.0</string>
+	<string>13.0</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
@@ -334,6 +335,13 @@
 	</array>
 	<key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
 	<true/>
+	<key>SKAdNetworkItems</key>
+	<array>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>f7s53z58qe.skadnetwork</string>
+		</dict>
+	</array>
 	<key>UIAppFonts</key>
 	<array>
 		<string>WeChatSansStd-Bold.ttf</string>
@@ -343,6 +351,29 @@
 		<string>WeChatSansSuperscript-Regular.ttf</string>
 		<string>WeChatSansSuperscript-Medium.ttf</string>
 	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<true/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>MainScene</string>
+					<key>UISceneDelegateClassName</key>
+					<string>MMMainSceneDelegate</string>
+				</dict>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>SubScene</string>
+					<key>UISceneDelegateClassName</key>
+					<string>MMSubSceneDelegate</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>location</string>
@@ -387,22 +418,24 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
 	<key>WeChatBundleVersion</key>
-	<string>8.0.2.35</string>
+	<string>8.0.16.35</string>
 	<key>WeChatFeatureIdentifier</key>
-	<string>release_appstore_8.0.2</string>
+	<string>release_appstore_8.0.16</string>
 	<key>build_time</key>
-	<string>2021-01-30 12:01:16</string>
+	<string>2021-10-22 16:06:02</string>
 	<key>by</key>
 	<string>wx_ios_code_helper</string>
 	<key>path</key>
-	<string>release_appstore_8.0.2_2021_1_28_18_1_49</string>
+	<string>release_appstore_8.0.16_2021_10_13_21_59_29</string>
+	<key>qmap_service</key>
+	<string>server_protocol.json</string>
 	<key>rev</key>
-	<string>d83cc49bb7910d7e9fb7bf066631e2fea55acd07</string>
+	<string>ec8276e210128932c6d225c1d353bfbe924b882a</string>
 	<key>tag</key>
-	<string>release_appstore_8.0.2 #19</string>
+	<string>release_appstore_8.0.16 #41</string>
 	<key>uuid</key>
-	<string>13d116da7a09339d98cc63d8adb4040f</string>
+	<string>f29e538030793c44a276b4feace3c2a6</string>
 	<key>ver</key>
-	<string>0x18000223</string>
+	<string>0x18001023</string>
 </dict>
 </plist>

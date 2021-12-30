@@ -4,8 +4,8 @@
 //  redEnvelopeDylib.h
 //  redEnvelopeDylib
 //
-//  Created by hibo on 2020/1/13.
-//  Copyright (c) 2020 hibo. All rights reserved.
+//  Created by hibo on 2021/12/30.
+//  Copyright (c) 2021 ___ORGANIZATIONNAME___. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
